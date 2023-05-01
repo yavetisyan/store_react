@@ -105,6 +105,7 @@ const SingleProduct = () => {
                       amount: 1,
                       totalPrice: item.price,
                     }))}
+                  
                   >
                     Add to Cart
                   </Button>
@@ -117,5 +118,6 @@ const SingleProduct = () => {
     </div>
   );
 };
+
 
 export default SingleProduct;
